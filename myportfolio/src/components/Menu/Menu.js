@@ -38,24 +38,26 @@ export const Menu = ({ toggle }) => {
                 About
               </div>
               <div className="nav-link">
-                <FcPortraitMode />
-                Work Experience
+                <FcReadingEbook />
+                Education
               </div>
+
               <div className="nav-link">
                 <FcBiotech />
                 Tec Stack
               </div>
-              <div className="nav-link">
-                <FcReadingEbook />
-                Education
-              </div>
+
               <div className="nav-link">
                 <FcVideoProjector />
                 Projects
               </div>
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <FcVoicePresentation />
                 Testimonial
+              </div> */}
+              <div className="nav-link">
+                <FcPortraitMode />
+                Work Experience
               </div>
               <div className="nav-link">
                 <FcBusinessContact />
@@ -75,19 +77,21 @@ export const Menu = ({ toggle }) => {
                 <FcAbout title="About" />
               </div>
               <div className="nav-link">
-                <FcPortraitMode title="Work Experience" />
+                <FcReadingEbook title="Education" />
               </div>
+
               <div className="nav-link">
                 <FcBiotech title="Tec Stack" />
               </div>
-              <div className="nav-link">
-                <FcReadingEbook title="Education" />
-              </div>
+
               <div className="nav-link">
                 <FcVideoProjector title="Projects" />
               </div>
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <FcVoicePresentation title="Testimonial" />
+              </div> */}
+              <div className="nav-link">
+                <FcPortraitMode title="Work Experience" />
               </div>
               <div className="nav-link">
                 <FcBusinessContact title="Contact" />
