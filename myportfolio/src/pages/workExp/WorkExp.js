@@ -12,7 +12,7 @@ export const WorkExp = () => {
       <div className=" work">
         <div className="container work-exp">
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-            Top recent projects
+            Work Experience
           </h2>
           <hr />
           <VerticalTimeline lineColor="#1e1e2c ">
