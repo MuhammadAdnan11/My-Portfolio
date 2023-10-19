@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import { Home } from "../../pages/Home/Home";
-import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
-import "./layout.css";
-import { Menu } from "../Menu/Menu";
-export const Layout = () => {
+import Home from "../../pages/Home/Home";
+import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
+import "./Layout.css";
+import Menus from "../Menus/Menus";
+
+const Layout = () => {
   const [toggle, setToggle] = useState(true);
-  // change toggle
+
+  //change toggle
   const handleToggle = () => {
     setToggle(!toggle);
   };
@@ -16,13 +18,13 @@ export const Layout = () => {
           <div className="sidebar-toggle-icons">
             <p onClick={handleToggle}>
               {toggle ? (
-                <AiFillCaretLeft size={30} />
+                <AiOutlineDoubleLeft size={30} />
               ) : (
-                <AiFillCaretRight size={30} />
+                <AiOutlineDoubleRight size={30} />
               )}
             </p>
           </div>
-          <Menu toggle={toggle} />
+          <Menus toggle={toggle} />
         </div>
         <div className="container">
           <Home />
@@ -31,3 +33,5 @@ export const Layout = () => {
     </>
   );
 };
+
+export default Layout;
