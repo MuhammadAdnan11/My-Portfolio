@@ -19,10 +19,7 @@ const Menus = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
-                alt="profile pic"
-              />
+              <img src="./Adnan.jpg" alt="profile pic" />
             </div>
           </Zoom>
           <Fade left>
