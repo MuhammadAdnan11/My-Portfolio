@@ -44,3 +44,11 @@
     width: 280px;
   }
 }
+
+
+#dark .techstack .card{
+  color: black;
+}
+#dark .techstack .card:hover{
+  color: white;
+}
